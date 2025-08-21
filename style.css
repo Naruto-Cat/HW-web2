@@ -1,0 +1,62 @@
+/* 歸零 */
+* {
+  margin: 0;
+}
+
+body {
+  background: #f1f0f0;
+}
+
+.wrap {
+  background: #fff;
+  width: 770px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* 
+  簡寫:
+  padding:上 右 下 左 ;
+  padding:上下 左右 ;
+  */
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+figure {
+  width: 100%;
+
+  /* 觀察範圍使用 
+  border: 1px solid red;
+  */
+}
+
+img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+figcaption {
+  color: #888585;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+.p-2 {
+  margin-top: 10px;
+}
+
+p {
+  line-height: 1.6;
+
+  /* 左右對齊 */
+  text-align: justify;
+}

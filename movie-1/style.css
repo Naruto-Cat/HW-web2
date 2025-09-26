@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+}
+
+div {
+  border: 1px dashed #949292;
+  margin-bottom: 20px;
+}
+
+/* 指定最後一個div的 margin-bottom 設為 0 */
+div:last-child {
+  margin-bottom: 0;
+}
+
+.wrap {
+  width: 1200px;
+  /* border: 1px red solid; */
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  color: #fff;
+  background-color: rgb(148, 5, 5);
+}
+
+.nav {
+  padding: 15px;
+}
+
+.nav a {
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 40px;
+
+  /* 從左到右「長出底線」 */
+  background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px
+    no-repeat;
+  transition: background-size 0.25s ease;
+}
+
+/* 指定最後一個連結把右邊距設為 0 */
+.nav a:last-child {
+  margin-right: 0;
+}
+
+.nav a:hover {
+  color: rgb(190, 10, 10);
+
+  /* 從左到右「長出底線」 */
+  background-size: 100% 2px;
+}
+
+.content {
+  padding: 30px;
+  border: none;
+}
+
+.footer {
+  color: #fff;
+  background-color: rgb(148, 5, 5);
+  padding: 10px;
+  font-size: 20px;
+}

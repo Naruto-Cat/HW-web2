@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f1f0f0;
+}
+
+.wrap {
+  background: #fff;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* border: 1px solid red; */
+
+  /* 上 右 下 左 */
+  padding: 30px 60px 90px 60px;
+}
+
+h1 {
+  margin-bottom: 30px;
+  /* border: 1px solid blue; */
+}
+
+p {
+  font-size: 20px;
+
+  /* border: 1px solid blue; */
+  line-height: 1.7;
+
+  /* 內容左右對齊 */
+  text-align: justify;
+}
+
+figure {
+  /* 寬度跟著父元素 → .wrap */
+  width: 100%;
+
+  /* border: 1px solid red; */
+}
+
+img {
+  /* 寬度跟著父元素 → <figure> */
+  width: 100%;
+
+  margin-top: 30px;
+}
+
+figcaption {
+  color: #888585;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.p-2 {
+  margin-top: 10px;
+}
